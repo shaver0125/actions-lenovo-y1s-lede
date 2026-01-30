@@ -80,7 +80,7 @@ jobs:
         remove-haskell: 'true'
         remove-codeql: 'true'
         remove-docker-images: 'true'
-        build-mount-path: /home/runner/work
+        # build-mount-path: /home/runner/work
 
     - name: Free up disk space complete
       run: |
